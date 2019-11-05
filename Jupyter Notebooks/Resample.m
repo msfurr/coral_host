@@ -1,7 +1,7 @@
 clc, clear
 
-flow = readmatrix('FlowData_Nov5.csv');
-sensor = readmatrix('SensorData_Nov5.csv');
+flow = readmatrix('flow.csv');
+sensor = readmatrix('sensors.csv');
 
 %%
 
