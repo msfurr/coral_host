@@ -1,0 +1,41 @@
+I2C NOTES
+
+# DESCRIPTION
+
+Links, sample code, and other resources for writing / reading I2C onto Google Coral
+
+# LINKS
+
+https://learn.adafruit.com/using-vcnl4010-proximity-sensor/python-circuitpython
+https://pypi.org/project/smbus2/
+https://github.com/RightAir/BreathDetectionSystem
+https://coral.withgoogle.com/docs/dev-board/gpio/
+https://python-periphery.readthedocs.io/en/latest/gpio.html
+
+# CHECK DEVICES
+
+sudo i2cdetect -y 1
+
+# IMPORT MODULE AND READ (make sure you're in the right cd)
+
+import Proximity_Sensor
+sensor = Proximity_Sensor.VCNL4010()
+sensor.proximity
+
+import ADS1015
+ads = ADS1015.ADS1015()
+# Read from channel 0
+data = adc.read_adc(0)
+
+# PYTHON PERIPHERY METHOD
+
+python3
+from periphery import I2C
+i2c = I2C('/dev/i2c-1')
+# Read byte at address 0x100 of EEPROM at 0x50
+msgs = [I2C.Message([0x80]), I2C.Message([0x00], read=True)]
+i2c.transfer(0x13, msgs)
+print("0x100: 0x%02x" % msgs[1].data[0])
+i2c.close()
+exec(open(‘example.py').read())
+
