@@ -1,0 +1,43 @@
+Git Notes
+
+# DESCRIPTION
+
+Commands for working with Git version control
+
+# LINKS
+
+https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
+# GIT INIT
+git init
+create a git repo in that folder
+
+# GIT ADD
+git add . // add all
+git add <filename> // add specific file
+add files to staging area
+
+# GIT STATUS
+git status
+checks changes in the current repo
+
+# GIT COMMIT
+git commit
+git commit -m 'comments for the commit'
+commits all changes in the staging area to the repo
+
+# GIT IGNORE
+touch .gitignore
+create a file with files that we don't want included in git
+then just add the file names to the gitignore file
+
+# GIT CHECKOUT
+git checkout masters
+brings you to the masters branch
+
+# GIT MERGE
+git merge
+'i'
+'add comment'
+escape
+:wq - enter
