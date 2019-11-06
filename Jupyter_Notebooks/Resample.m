@@ -15,9 +15,6 @@ sensor_7 = sensor(:, 8);
 sensor_8 = sensor(:, 9);
 
 flow_undersampled = resample(flow, length(sensor_1), length(flow));
-flow_undersampled(:,1) = flow_undersampled(:,1)*-1;
-
-x = linspace(0, 9989, 9989);
 
 %%
 
