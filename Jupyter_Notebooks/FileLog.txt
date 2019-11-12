@@ -22,6 +22,19 @@ Training Data V1
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Training Data V2
+
+	Description
+		Data recoreded while walking
+
+	Files
+		Dataset 1
+			sensors_walking.csv
+			flow_walking.csv
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Jupyter Notebooks
 
 	ModelTraining
