@@ -1,0 +1,39 @@
+FILE LOG
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Training Data V1
+
+	Description
+		Data recorded while sitting
+		2 datasets to train / test on as needed
+
+	Files
+		Dataset 1
+			sensors_1.csv
+			Flow_1.csv
+
+		Dataset 2
+			sensors_1.csv
+			Flow_2.csv
+
+	Feeds into
+		ModelTraining (Jupyter Notebook)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Jupyter Notebooks
+
+	ModelTraining
+		Trains cleaned data and produces machine learning models
+
+	RawDataEDA
+		Just takes a look at the data and produces plots
+
+	TrainingDataCleaning
+		Takes raw data from flow sensor or Read_Write_Sensor and creates files for ModelTraining
+		Cleans, resamples, etc
+
+	Sandbox
+		Place to test new functions and code blocks
+
