@@ -35,6 +35,24 @@ Training Data V2
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Training Data V3
+
+	Description
+		Data recoreded while walking and sitting
+
+	Files
+		sensor_sit_1_clean.csv
+		sensor_sit_2_clean.csv
+		sensor_walk_1_clean.csv
+		sensor_walk_2_clean.csv
+		flow_sit_1_clean.csv
+		flow_sit_2_clean.csv
+		flow_walk_1_clean.csv
+		flow_walk_2_clean.csv
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Jupyter Notebooks
 
 	ModelTraining
